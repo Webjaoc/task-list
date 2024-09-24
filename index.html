@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>To do list</h1>
+    </header>
+    <div class="table-content">
+        <input type="text" id="taskInput" placeholder="Insert task">
+        <button type="button" id="add" onclick="addTask()">Add task</button><br>
+        <span id="message"></span>
+        <table id="taskTable"></table>
+        
+        </table>
+    </div>
+    <div id="btn-resetList">
+     <button type="button" id="restet" onclick="resetList()" >Reset list</button>
+    </div>
+
+
+    <script src="./js/table.js"></script>
+</body>
+</html>
